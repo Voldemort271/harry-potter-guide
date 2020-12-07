@@ -1,0 +1,195 @@
+        .masthead {
+            height: 100vh;
+            min-height: 500px;
+            background-image: url('https://cdn.kastatic.org/images/profile/backgrounds/bg-photon-1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+        #header-tagline {
+            color: white;
+            font-size: 25px;
+        }
+
+        .header-button {
+            color: white;
+            background-image: url('https://cdn.kastatic.org/images/profile/backgrounds/bg-photon-2.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            padding: 10px 20px;
+            font-size: 20px;
+            border: 2px solid rgb(255, 255, 255);
+            border-radius: 10px;
+            transition: 0.5s ease-in-out;
+            opacity: 0.5;
+        }
+
+        .header-button:hover {
+            padding: 20px 30px;
+            transition: 0.5s ease-in-out;
+            color: white;
+            font-size: 25px;
+            opacity: 1;
+        }
+        #header-icon {
+            position: absolute;
+            left: 47.5%;
+            top: 90%;
+            filter: invert(70%);
+            animation: bounce 1s infinite;
+        }
+
+        @keyframes bounce {
+            0% {
+                transform: scale(1.0);
+                opacity: 1;
+            }
+
+            50% {
+                transform: scale(1.2);
+                opacity: 0.5;
+            }
+
+            100% {
+                transform: scale(1.0);
+                opacity: 1;
+            }
+        }
+        .home-card {
+            color: white;
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/98/Koli_National_Park%2C_North_Karelia%2C_Finland_-_Scenery_from_Ukkokoli.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+        .page-title {
+            text-align: center;
+            margin-top: 10px;
+            padding: 20px;
+        }
+
+        #home-title {
+            background: url('https://upload.wikimedia.org/wikipedia/en/e/e7/Harry_Potter_and_the_Order_of_the_Phoenix_poster.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        #about-title {
+            background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/J.K._Rowling_House.jpg/640px-J.K._Rowling_House.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        #story-title {
+            background: url('https://upload.wikimedia.org/wikipedia/en/0/0d/Cover_art_for_Hogwarts_Mystery_video_game.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        #cast-title {
+            background: url('https://upload.wikimedia.org/wikipedia/en/a/aa/Orderphoenix.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        #credits-title {
+            background: url('https://upload.wikimedia.org/wikipedia/en/7/7d/DeathEaters.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+        .page-content {
+            font-size: 20px;
+        }
+        #hp1-title {
+            background: url('https://upload.wikimedia.org/wikipedia/it/8/8b/Voldemort.JPG');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        #hp2-title {
+            background: url('https://upload.wikimedia.org/wikipedia/en/a/a3/Lordvoldemort.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        #hp3-title {
+            background: url('https://upload.wikimedia.org/wikipedia/commons/2/2b/Dragon_Challenge_19.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        #hp4-title {
+            background: url('https://upload.wikimedia.org/wikipedia/en/c/c9/Harry_Potter_and_the_Goblet_of_Fire_Poster.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        #hp5-title {
+            background: url('https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Ootp_cover.jpg/220px-Ootp_cover.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        #hp6-title {
+            background: url('https://upload.wikimedia.org/wikipedia/en/3/3f/Harry_Potter_and_the_Half-Blood_Prince_poster.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        #hp7-title {
+            background: url('https://upload.wikimedia.org/wikipedia/en/2/2d/Harry_Potter_and_the_Deathly_Hallows_%E2%80%93_Part_1.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        #hp8-title {
+            background: url('https://upload.wikimedia.org/wikipedia/en/2/24/DH2soundtrack.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: linear-gradient(50deg, rgb(0, 0, 0) 32%, rgb(25, 255, 190) 100%);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: rgb(0, 0, 0);
+            box-shadow: 0px -20px 10px rgb(255, 222, 5);
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgb(61, 34, 6);
+        }
