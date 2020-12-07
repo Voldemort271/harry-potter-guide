@@ -1,0 +1,337 @@
+        .carousel-images {
+            display: none;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+        }
+
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        #header-text-1,
+        #header-text-2,
+        #header-text-3 {
+            font-size: 100px;
+        }
+
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .text {
+            color: rgb(255, 255, 255);
+            font-family: 'Stalinist One';
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 150px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active,
+        .dot:hover {
+            background-color: #717171;
+        }
+
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+        
+        .animated-text {
+            font-family: 'Roboto Mono';
+        }
+
+        @-webkit-keyframes fade {
+            from {
+                opacity: 0.5;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fade {
+            from {
+                opacity: 0.5;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+        #navbar-links li {
+            background-color: rgb(148, 98, 44);
+            position: fixed;
+            left: -125px;
+            transition: 0.3s;
+            padding: 15px;
+            width: 150px;
+            text-decoration: none;
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+            border-radius: 5px;
+            list-style-type: none;
+        }
+
+        #navbar-links li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #navbar-links li:hover {
+            left: 0;
+            border-radius: 100px;
+            background-color: rgb(97, 64, 28);
+            box-shadow: 10px 10px 10px rgb(46, 46, 46);
+            cursor: pointer;
+            animation-name: rotate-slight;
+            animation-duration: 0.5s;
+        }
+
+        @keyframes rotate-slight {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            50% {
+                transform: rotate(45deg);
+            }
+        }
+
+        #homeButton {
+            top: 20px;
+        }
+
+        #aboutButton {
+            top: 80px;
+        }
+
+        #preludeButton {
+            top: 140px;
+        }
+
+        #courseButton {
+            top: 200px;
+        }
+
+        #aftermathButton {
+            top: 260px;
+        }
+
+        #conclusionButton {
+            top: 320px;
+        }
+
+        #creditsButton {
+            top: 380px;
+        }
+        * {
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
+
+        h1 {
+            font-family: Google Sans Display;
+        }
+
+        h2 {
+            font-family: Open Sans;
+            text-align: center;
+        }
+
+        body {
+            font-family: Josefin Sans;
+            margin: 0;
+        }
+
+        a {
+            color: rgb(0, 174, 255);
+            text-decoration: none;
+        }
+        .page-heading {
+            text-align: center;
+            color: white;
+            font-size: 75px;
+            margin: 0px;
+            padding: 50px;
+        }
+
+        #home-head {
+            background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/HMAS_Australia_%28D84%29_passing_through_the_Panama_Canal_in_March_1935.jpg/300px-HMAS_Australia_%28D84%29_passing_through_the_Panama_Canal_in_March_1935.jpg');
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        #about-head {
+            background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/USS_Lexington_%28CV-2%29_burning_and_sinking_on_8_May_1942_%28NH_51382%29.jpg/1280px-USS_Lexington_%28CV-2%29_burning_and_sinking_on_8_May_1942_%28NH_51382%29.jpg');
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        #prelude-head {
+            background: url('https://upload.wikimedia.org/wikipedia/commons/8/87/USS_Enterprise_%28CV-6%29_in_Puget_Sound%2C_September_1945.jpg');
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        #course-head {
+            background: url('https://upload.wikimedia.org/wikipedia/commons/6/65/The_Battle_of_the_Barents_Sea.jpg');
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        #aftermath-head {
+            background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/M4_Sherman_tank_-_Flickr_-_Joost_J._Bakker_IJmuiden.jpg/1920px-M4_Sherman_tank_-_Flickr_-_Joost_J._Bakker_IJmuiden.jpg');
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        #conclusion-head {
+            background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Americans_cross_Siegfried_Line.jpg/1200px-Americans_cross_Siegfried_Line.jpg');
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        #credits-head {
+            background: url('https://upload.wikimedia.org/wikipedia/commons/d/d7/U.S._Soldiers_at_Bougainville_%28Solomon_Islands%29_March_1944.jpg');
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .page-content {
+            margin: 50px;
+            line-height: 1.5;
+        }
+
+        .page-content-intro {
+            margin: 50px;
+            line-height: 1.5;
+            font-size: 20px;
+        }
+
+        .page-content-image-1 {
+            float: left;
+            margin: 10px;
+        }
+
+        .page-content-image-2 {
+            float: right;
+            margin: 10px;
+        }
+        .card {
+            text-align: center;
+            border: 1px solid rgb(107, 107, 107);
+            padding: 10px;
+            width: 33%;
+            background-color: rgb(255, 255, 255);
+            border-radius: 5px;
+            font-size: 20px;
+            float: left;
+            transition: 0.5s;
+        }
+
+        .card:hover {
+            background-color: rgb(240, 240, 240);
+            box-shadow: 5px 5px 0px rgb(100, 100, 100);
+            transition: 0.5s;
+        }
+
+        .card a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-family: Roboto Mono;
+        }
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: white;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: rgb(0, 0, 0);
+            border-radius: 10px;
+            box-shadow: 0px 10px 0px rgb(143, 143, 143);
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgb(43, 43, 43);
+        }
+        #change-text:hover {
+            animation-name: fade-hide;
+            animation-duration: 0.3s;
+        }
+
+        @keyframes fade-hide {
+            0% {
+                color: rgb(255, 255, 255);
+            }
+
+            75% {
+                color: rgb(0, 0, 0);
+            }
+        }
